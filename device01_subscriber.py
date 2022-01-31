@@ -15,7 +15,6 @@ print('MQTT Subscriber'.center(100))
 topic = input('\nInscrever-se no tópico: ')
 
 myAWSIoTMQTTClient.connect()
-print('Inicio de Inscrição \n')
 
 
 def customCallback(client, userdata, message):
